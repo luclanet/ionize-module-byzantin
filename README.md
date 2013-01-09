@@ -2,7 +2,9 @@ Ionize Byzantin Translator module
 =======================
 
 Version : 1.0
+
 Ionize version : 0.9.9
+
 Released on january 2013
 
 ### About
@@ -14,7 +16,7 @@ Byzantin Translator works only with Ionize from version 0.9.9
 
 ### Authors
 
-* [Michel-Ange Kuntz](http://www.partikule.net)
+[Michel-Ange Kuntz](http://www.partikule.net)
 
 
 ### Installation
