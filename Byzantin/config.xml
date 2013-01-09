@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Byzantin Translator</name>
+	<description>Backend Translator</description>
+	<uri_segment>byzantin</uri_segment>
+
+    <!-- Has this module an admin panel ? -->
+    <has_admin>true</has_admin>
+
+    <!--
+        Group who can access to the admin panel of the module
+        Groups can be :
+        - super-admins
+        - admins
+        - editors
+    -->
+    <access_group>editors</access_group>
+
+</module>

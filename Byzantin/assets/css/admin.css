@@ -1,0 +1,90 @@
+h2.main.byzantin {
+	background: url(../images/icon_48_module.png) no-repeat 0 0;
+	padding-left:68px;
+}
+
+/* Steps */
+ol#steps{
+	list-style:none;
+	float:left;
+	margin-bottom:20px;
+	counter-reset:step;
+}
+ol#steps li{
+	float: left;
+	margin-right:10px;
+	margin-top: 5px;
+}
+ol#steps li a{
+	display:block;
+	text-decoration:none;
+	padding:7px 20px 7px 35px;
+	position:relative;
+	border-radius: 20px;
+}
+ol#steps li a:hover {
+	background-color: #f7f7f7;
+	color: #333;
+}
+ol#steps li a.active {
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+ol#steps li span{
+	font-weight:bold;
+	display:block;
+	font-style:normal;
+}
+ol#steps li a:before{
+	counter-increment:step;
+	content:counter(step);
+	text-align:center;
+	font-weight:bold;
+	background-color: #eee;
+	height:30px;
+	width: 30px;
+	line-height: 30px;
+	position:absolute;
+	border-radius: 20px;
+	top:0px;
+	left:0;
+}
+
+/* Tranlation table */
+table.byzantin {
+
+}
+table.byzantin td{
+	padding:3px 5px;
+	vertical-align: top;
+	background-color: #f3f3f3;
+	border: solid 1px #fff;
+}
+table.byzantin tr td .inputtext{
+	width:96% !important;
+}
+table.byzantin tr td .textarea{
+	width:96% !important;
+}
+table.byzantin tr:hover td{
+	background-color: #f3f3f3;
+}
+table.byzantin tr.empty td {
+	background-color: #f9c5c5;
+}
+table.byzantin tr.same td {
+	/*background-color: #c8ecf8;*/
+	background-color: #f9f7c5;
+}
+table.byzantin td span.same{
+	font-style: italic;
+	color:#555555;
+}
+table.byzantin td span.error{
+	color:#b00;
+}
+table.byzantin td span.note{
+	color:#0b0;
+}
+
