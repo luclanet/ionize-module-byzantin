@@ -2,7 +2,7 @@ Ionize Byzantin Translator module
 =======================
 
 Version : 1.0
-
+Ionize version : 0.9.9
 Released on january 2013
 
 ### About
